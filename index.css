@@ -1,0 +1,104 @@
+
+.localizacao{
+    background-color: #14ADDD;
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px; 
+    text-align: center;  
+}
+
+@media screen and (max-width: 700px) {
+    .main, .navbar {
+        flex-direction: column;
+    }
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.esquerda{
+    flex: 30px;
+    margin: 30px 10px; 
+}
+
+.meio{
+    flex: 30px;
+    background-color: white;
+    color: #14ADDD;
+    padding: 0 20px;
+    font-size: 20px;
+    margin: 30px 10px; 
+}
+
+.meio p{
+    margin-top: 0;
+}
+
+.direita{
+    max-width: 288px;
+    flex: 30px;
+    background-color: #524F58;
+    color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 30px 10px; 
+}
+
+.Imagen{
+    min-width: 300px;
+    height: 100%;
+    width: 100%;
+}
+
+input{
+    background-color: #C4C4C4;
+    border-radius: 10px;
+    width: 100%;
+    padding: 6px;
+    margin: 4px 0px ;
+}
+
+.botao{
+    background: #F16A08;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    width: 155px;
+    height: 22px;
+    padding: 0px 20px;
+}
+
+.direita h2{
+    font-size: 18px ;
+    margin: 0;
+}
+
+.direita h3{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.botao-localizacao{
+    border-radius: 5px;
+    background: #F16A08;
+    color: white;
+    text-align: center;
+    padding: 5px 20px;
+    border: none;
+}
+
+.botao:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.botao-localizacao:hover{
+    background-color: orange;
+    cursor: pointer;
+}

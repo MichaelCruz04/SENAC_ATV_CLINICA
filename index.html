@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Clínica Dentária</title>
+        <link rel="Stylesheet" type="text/css" href="index.css">
+        <link rel="Stylesheet" type="text/css" href="estilo.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="header-title">
+                <h1>Clínica dentária</h1>
+                <p>sorrir é uma<br>conquista.</p>
+            </div>
+
+            <div class="header-menu">
+                <input type="text" id="buscar" name="buscar" placeholder="Buscar" class="buscar">
+                <div class="navbar">
+                    <a href="">Implantes Dentários</a>
+                    <a href="">Aparelhos Dentários</a>
+                    <a href="">Tratamentos</a>
+                    <a href="">Clínicas</a>
+                    <a href="">Contatos</a>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="localizacao">
+            <h2>Encontre a clínica mais próxima de voçê</h2>
+            <button class="botao-localizacao">Usar minha localizção</button>
+        </div>
+
+        <div class="main">
+            <div class="esquerda">
+                <img src="./img/Imagen_1.jpg" class="Imagen" alt="imagen">
+            </div>
+
+            <div class="meio">
+                <p>UMA CLÍNICA MODERNA Conheça nossa clínica</p>
+                    
+                <p> Clínica Dentária se preocupa em cuidar do seu sorriso! Temos ambiente climatizado, sistema informatizado, wi-fi e equipamentos de última geração.</p>
+                    
+                <p>PROFISSIONAIS CAPACITADOS Nossa equipe é especialista no assunto</p> 
+                    
+                <p>Contamos com uma equipe multidiciplinar e especializada, especialmente preparada para lhe proporcionar um atendimento personalizado utilizando técnicas modernas.</p>
+                    
+            </div>
+            <div class="direita">
+                <h2>Agende sua valiação</h2> 
+                <h3>de forma fácil e rápida</h3>
+                <form action="teste.html" onsubmit="return valida_formulario(this);" method="post" name="formulario"> 
+                    <input type="text" id="nome" name="nome" placeholder="Nome completo">
+                    <span class="msg-erro msg-nome"></span>
+                    <input type="text" id="telefone" name="telefone" placeholder="Telefone ou WhatsApp">
+                    <span class="msg-erro msg-telefone"></span>
+                    <input type="text" id="local" name="local" placeholder="Local">
+                    <span class="msg-erro msg-local"></span>
+                    <input type="date" id="Dia" name="Dia" placeholder="Dia">
+                    <span class="msg-erro msg-Dia"></span>
+                    <input type="time" id="horario" name="horario" placeholder="Horário">
+                    <span class="msg-erro msg-horario"></span>
+                    <input type="text" id="E-mail" name="E-mail" placeholder="E-mail">
+                    <span class="msg-erro msg-E-mail"></span>
+                    <input type="submit" value="Agendar" class="botao">
+                    
+                </form>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <div class="footer-esquerdo">
+                <h2>Clínica dentária</h2>
+                <p>sorrir é uma conquista.</p> 
+            </div>
+            <div class="footer-direito">
+                <p>Acompanhe nossas redes sociais</p>
+                <img src="./img/instagram-5-xxl.png" alt="">
+                <img src="./img/facebook-3-xxl.png" alt="">
+                <img src="./img/twitter-xxl.png" alt="">
+                <img src="./img/linkedin.png" alt="">
+            </div>  
+        </div>
+        
+        <script type="text/javascript" src="js.js"></script>
+    </body>
+</html>
